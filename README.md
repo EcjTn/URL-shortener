@@ -21,3 +21,9 @@ Send a `POST` request with a JSON body
 
 Then it can be visited with:
 ```http://127.0.0.1:8000/view/(title)```
+
+## Note
+
+It's a mock up database/temporary db.
+whenever the server restarts, all the datas that were pushed in linkList
+will be erased.
