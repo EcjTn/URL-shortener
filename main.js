@@ -7,11 +7,8 @@ const app = express()
 app.use(express.json())
 
 
-
-
 //Note: everything in the post req(addLink) is temporary. Once the server restarts,
 //all the title and urls are cleared. Except from the links.js datas.
-
 
 //Main
 app.get('/', (req,res) => {
@@ -21,30 +18,8 @@ app.get('/', (req,res) => {
 //Link redictor
 app.get('/view/:userLink', getLinks)
 
-
-
 //Post link
 app.post('/api/add', addLink)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //query params test
@@ -58,9 +33,6 @@ app.get('/api/search', (req,res) => {
 
     res.send("Console logged....")
 })
-
-
-
 
 
 app.listen(8000, () => console.log("[*] Streaming on port 8000"))
