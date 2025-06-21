@@ -3,7 +3,7 @@
 A simple URL shortener built with **Express.js**.
 This app allows users to send POST requests with a title and a URL, and get back a shortened version for easier sharing.
 
-> ⚠️ **Note:** This project is currently **under development**.
+> ⚠️ **Note:** This project is currently **for test only*.
 
 ---
 
