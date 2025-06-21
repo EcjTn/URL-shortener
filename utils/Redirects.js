@@ -12,8 +12,6 @@ async function getLinks(req, res) {
 }
 
 
-
-
 async function addLink(req, res){
 
     //removes whitespaces
